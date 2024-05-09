@@ -1,0 +1,45 @@
+@import "settings/reset";
+
+a{
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+.db{
+  display: block;
+}
+.dib{
+  display: inline-block;
+}
+.fl_l{
+  float: left;
+}
+.fl_r{
+  float: right;
+}
+.center{
+  overflow: hidden;
+}
+.tac{
+  text-align: center;
+}
+
+.nav{
+  list-style: none;
+}
+strong, b{
+  font-weight: 700;
+}
+
+button,
+textarea,
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
