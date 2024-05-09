@@ -1,0 +1,22 @@
+$img: "../images/";
+$font: "Pixel Cyr";
+
+
+
+@mixin h-line-height($h) {
+  height: $h;
+  line-height: $h;
+}
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$img}#{$sprite-image});
+  display: inline-block;
+}
